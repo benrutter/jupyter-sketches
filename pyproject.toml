@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter_sketches"
+folder = "sketches"
+readme = "README.md"
+requires-python = ">=3.8"
+version = "2023.8.0"
+description = "generative art sketchbook"
+dependencies = [
+    "shades",
+    "jupyter",
+    "numpy",
+]
