@@ -12,5 +12,7 @@ description = "generative art sketchbook"
 dependencies = [
     "shades",
     "jupyter",
+    "notebook>7",
     "numpy",
+    "ipykernel>=6.26.0",
 ]
